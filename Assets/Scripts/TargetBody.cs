@@ -18,7 +18,7 @@ public class TargetBody : MonoBehaviour, IRigidObject
     private void Update() {
         if(Input.GetKeyDown(KeyCode.Space)){
             Physics(false);
-            Time.timeScale = 1;
+            TimeManager.DoNormal();
         }
     }
 

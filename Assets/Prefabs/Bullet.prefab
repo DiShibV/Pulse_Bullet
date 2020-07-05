@@ -124,5 +124,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _rigidbody: {fileID: 1005401963469591657}
-  _speedBullet: 4
-  _forseImpulse: 150
+  _bulletImpulseData: {fileID: 11400000, guid: 6ad5a29ef6bb23d41b5c30b3827cf1c8, type: 2}
